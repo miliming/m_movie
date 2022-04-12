@@ -18,7 +18,7 @@ function App() {
   }, [counter]);  // counter 변힐때만 실행
   useEffect(() => {
     console.log("I run when 'keyword' or 'counter' changes.");
-  }, [keyword,counter]);  //keywor또는 counter 변힐때만 실행
+  }, [keyword,counter]);  //keywor 또는 counter 변힐때만 실행
   return (
     <div>
       <input 
